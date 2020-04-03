@@ -1,6 +1,6 @@
 {
 	"name": "instagram-basic-display",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "./lib/index.js",
 	"typings": "./lib/index.d.ts",
 	"repository": "git@github.com:loicnestler/instagram-basic-display.git",
