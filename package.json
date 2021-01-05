@@ -7,7 +7,7 @@
 	"author": "Loïc Nestler <loic.nestler@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
-		"axios": "^0.19.2",
+		"axios": "^0.21.1",
 		"querystring": "^0.2.0"
 	}
 }
