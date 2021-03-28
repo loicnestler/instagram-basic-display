@@ -14,6 +14,11 @@ declare class InstagramBasicDisplayApi {
 	 */
 	authorizationUrl: string
 	/**
+	 * Refreshes an unexpired long-life access token
+	 * @param accessToken a user's long-life access token
+	 */
+	refreshLoginLivedToken(accessToken: string): Promise<object>
+	/**
 	 * Retrieves an access token (ttl: 1h)
 	 * @param userCode can be found in querystring of redirect URI after authorization
 	 * @returns request
